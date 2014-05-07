@@ -3,7 +3,7 @@
   %head
     %meta{:charset => "utf-8"}/
     %title Presentation title
-    %meta{:content => "Causes Engineering", :name => "author"}/
+    %meta{:content => "Adam Derewecki", :name => "author"}/
     %link{:href => "http://fonts.googleapis.com/css?family=Montserrat:400,700", :rel => "stylesheet", :type => "text/css"}/
     %link{:href => "reveal/css/reset.css", :rel => "stylesheet"}/
     %link{:href => "reveal/css/main.css", :rel => "stylesheet"}/
@@ -14,32 +14,27 @@
       .reveal pre {
         font-size: 24px;
       }
-  %body#causes
+  %body#derwiki-presentation
     .reveal
       .slides
 
         %section
-          %h1 Presentation title
+          %h2 Presentation Title
+          %h3 A nice place for a subtitle
           %br
           %h5 presented by
-          %h4 Presenter
-          %img.logo{:src => 'assets/causes-logo.png'}
+          %h4 @derwiki
 
 
         %section
-          %h2 Slide title
+          %h2 Title of first slide
           %ul
             %li.fragment
-              A bullet point
+              This bullet point shows up first.
             %li.fragment
-              Another bullet point
-              %pre.fragment
-                %code.language-ruby{:contenteditable => ""}
-                  :preserve
-                    # this is Ruby code
-                    &lt;%= @cause.name %&gt;
+              And then this.
             %li.fragment
-              Another bullet point
+              Finishing with this.
 
       /
         required for correct operation of reveal.js,
