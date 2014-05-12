@@ -1,18 +1,12 @@
-Basic starting point for quick-and-dirty technical presentations.
+## My travel camera bag
+### How to prepare for a trip abroad
 
-## Includes:
-
-  - `reveal.js`: JS slideshow library
-  - `highlight.js`: JS syntax highlighting library, with themes
-
-## Usage:
-
-1. Make sure the prerequisites are in place
-
-        git submodule update --init
-        bundle
-
-1. Edit the `index.haml` file to taste
-1. Build
-
-        bundle exec rake
+## Getting this presentation:
+- github.com/derwiki/presentation-travel-photography
+  - Once you've cloned the repo locally
+    git submodule update --init
+    bundle
+    bundle exec rake
+    \# index.html will be generated
+- Missing submodule assets, but sort of works:
+  - https://rawgit.com/derwiki/presentation-travel-photography/master/index.html
