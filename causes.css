@@ -4,6 +4,12 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 33px;
 }
+#derwiki-presentation h2 {
+  font-size: 42px;
+}
+#derwiki-presentation img.full {
+  height: 500px;
+}
 
 #derwiki-presentation a {
   color: #15b5d2;
@@ -60,4 +66,7 @@
   box-shadow: none;
   position: fixed;
   width: 200px;
+}
+.text-center {
+  text-align: center !important;
 }
